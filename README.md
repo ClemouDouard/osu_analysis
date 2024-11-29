@@ -1,6 +1,8 @@
-# Osu analysis
+# Osu 
+Osu is a rythm game where the goal is to click circles to the beat.
+All of the beatmaps are made by the community and are free to download.
 
-Doing some analysis on osu beatmaps statistics
+The goal here is to make some statistics and visualizations about those beatmaps, and find correlation between variables.
 
 ## Data
 
