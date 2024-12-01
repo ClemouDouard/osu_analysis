@@ -51,3 +51,22 @@ The [data](https://www.kaggle.com/datasets/alumkal/osu-beatmaps) is from Kaggle.
 - `diff_speed` : The speed difficulty in the overall difficulty.
 - `difficultyrating` : The difficulty rating of the map.
 
+The dataset was cleaned and preprocessed before being used for the analysis.
+
+## Correlations
+
+![heatmap](reports/figures/heatmap_withdiff.png)
+
+In this heatmap, we can see correlation between :
+- `total_length` and 
+  - `max_combo` which is expected as longer maps have more opportunities to get a higher combo.
+  - `count_slider` and `count_normal` which is expected as longer maps have more opportunities to have more sliders and objects
+  - `hit_length` which there is no need to explain why this is correlated
+- `diff_size` and
+  - `diff_drain` which is expected as higher drain rate means higher difficulty in general
+  - `diff_overall` which is expected as higher overall difficulty means higher difficulty in general
+- `diff_overall` and
+  - `difficultyrating` which is expected, as the more precise you need to be rythmically, the harder the map is
+  - `diff_speed` which is expected as higher speed difficulty means higher difficultyrating
+  - `diff_aim` which is expected as higher aim difficulty means higher difficultyrating
+  - 
