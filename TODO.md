@@ -1,0 +1,13 @@
+- [x] Data cleaning
+- [ ] Data description
+- [ ] Statistical description
+  - [ ] pd.describe
+  - [ ] histograms of kde plots
+- [ ] Heatmap and general correlation
+  - [x] General
+  - [ ] Difficulty and popularity ?
+- [ ] Categories
+  - [ ] Compare groups and categories
+  - [ ] How that affect some correlations ?
+- [ ] Temporal analysis
+- [ ] Make a slideshow
