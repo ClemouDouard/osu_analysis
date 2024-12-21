@@ -79,5 +79,10 @@ In this heatmap, we can see correlation between :
   - `passcount` and `playcount` which is expected as the more a map is played, the more it is likely to be favourited
 
 Generally, we can observe that the biggest correlations are kind of expected, but we could have expected some other that are not here. For example, the bpm isn't correlated with any of the difficulty stats, even though there is a speed difficulty.
+
 This could be because the speed difficulty is calculated with something else than just the bpm alone. In fact the speed difficulty seams to be more related with the number of objects, which is normal because we call a map a speed map when there are a lot of fast streams in it (which is not the case when we have a high bpm map with no streams).
+
 We also wanted to see the correlation between the difficulty and the popularity of the beatmap, and to our suprise it is not correlated to anything.
+
+## Histograms
+
