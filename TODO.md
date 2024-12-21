@@ -1,7 +1,7 @@
 - [x] Data cleaning
-- [ ] Data description
+- [x] Data description
 - [ ] Statistical description
-  - [ ] pd.describe
+  - [x] pd.describe
   - [ ] histograms of kde plots
 - [ ] Heatmap and general correlation
   - [x] General

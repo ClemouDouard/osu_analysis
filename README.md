@@ -69,4 +69,11 @@ In this heatmap, we can see correlation between :
   - `difficultyrating` which is expected, as the more precise you need to be rythmically, the harder the map is
   - `diff_speed` which is expected as higher speed difficulty means higher difficultyrating
   - `diff_aim` which is expected as higher aim difficulty means higher difficultyrating
-  - 
+  - `max_combo` but in a less important way, as the combo is not the only thing that makes a map hard
+  - `count_slider` and `count_normal` which is expected as the last attribute is correlated with the overall difficulty
+  - `diff_drain` which is expected as higher drain rate means higher difficultyrating
+  - `diff_approach` which is expected as the easiest maps have generaly ar=2-5, and the harder maps above ar=9
+- `diff_approach` and all of the above for difficulty
+- `diff_drain` and all of the above for difficulty
+- `favorite_count` and
+  - `passcount` and `playcount` which is expected as the more a map is played, the more it is likely to be favourited
